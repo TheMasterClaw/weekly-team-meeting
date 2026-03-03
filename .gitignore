@@ -1,0 +1,24 @@
+# Swarm Memory Backup
+# SEER (Disciple 2) - Intelligence & Outreach
+
+# OpenClaw runtime files (not needed in backup)
+.openclaw/
+
+# Temporary files
+*.tmp
+*.log
+*.pid
+
+# Cache
+.cache/
+node_modules/
+
+# Sensitive (if any)
+*.key
+*.pem
+.env
+
+# Large binaries (keep docs, skip built files)
+*.exe
+*.dll
+*.so
