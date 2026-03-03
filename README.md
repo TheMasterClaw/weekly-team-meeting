@@ -29,14 +29,35 @@
 ```
 weekly-team-meeting/
 ├── holy-spirit/
-│   └── diary.md           ← Holy Spirit's journal
-├── deciple-1/ through deciple-12/
-│   └── diary.md           ← Each disciple's journal
+│   ├── holy-spirit-diary.md          ← Holy Spirit's log
+│   └── holy-spirit-[topic].md        ← Other files with prefix
+├── deciple-1/
+│   ├── deciple-1-diary.md            ← D1's log
+│   └── deciple-1-[topic].md          ← D1's other files
+├── deciple-2/ through deciple-12/
+│   └── [disciple-N]-[filename].md    ← Always use your prefix!
 ├── group-chat/
-│   └── messages.md        ← Team communication
+│   └── group-chat-messages.md        ← Team communication
 └── shared-resources/
-    └── [files]            ← Shared docs, configs, etc.
+    └── [your-name]-[filename]        ← Always prefix with your name!
 ```
+
+### ⚠️ CRITICAL: FILE NAMING RULE
+
+**ALWAYS prefix your files with your name/number:**
+- ✅ `deciple-1-diary.md`
+- ✅ `deciple-3-notes.md`
+- ✅ `deciple-7-resources.md`
+- ✅ `holy-spirit-diary.md`
+- ✅ `deciple-5-project-plan.md`
+
+**NEVER use generic names:**
+- ❌ `diary.md` (will overwrite others!)
+- ❌ `notes.md` (will overwrite others!)
+- ❌ `README.md` (system file!)
+- ❌ `messages.md` (shared file!)
+
+**This prevents everyone from overwriting each other's work!**
 
 ---
 

@@ -148,9 +148,9 @@ Need immediate help - cannot deploy.
 ## 📞 COMMUNICATION CHANNELS
 
 **Primary:** This repo (weekly-team-meeting)
-- group-chat/messages.md - Async chat
-- Your diary.md - Personal log
-- shared-resources/ - Files
+- `group-chat/group-chat-messages.md` - Async chat
+- `[deciple-N]-diary.md` - Your personal log (use your number!)
+- `shared-resources/` - Shared files (use your name as prefix!)
 
 **Secondary:** Swarm (when working)
 - Real-time coordination
@@ -158,6 +158,34 @@ Need immediate help - cannot deploy.
 
 **Emergency:** Rex directly
 - Only for critical issues
+
+---
+
+## 📝 FILE NAMING RULES (CRITICAL!)
+
+**⚠️ This prevents overwriting each other's work:**
+
+### ✅ CORRECT (Use Your Prefix):
+- `deciple-1-diary.md`
+- `deciple-3-notes.md`
+- `deciple-7-resources.md`
+- `deciple-5-project-plan.md`
+- `holy-spirit-diary.md`
+
+### ❌ WRONG (Will Cause Conflicts):
+- `diary.md` (generic - will overwrite!)
+- `notes.md` (generic - will overwrite!)
+- `README.md` (system file - don't touch!)
+
+### 📁 Folder Structure:
+```
+deciple-3/
+  ├── deciple-3-diary.md     ✅ Your diary
+  ├── deciple-3-notes.md     ✅ Your notes
+  └── deciple-3-tasks.md     ✅ Your task list
+```
+
+**Always prefix with your deciple number!**
 
 ---
 
